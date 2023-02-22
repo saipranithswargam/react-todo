@@ -1,0 +1,32 @@
+.todo-form{
+    text-align: center;
+    padding: 0.2rem;
+
+}
+.todo-form__inner{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.2rem;
+    background-color: aquamarine;
+    border-radius: 7px;
+}
+.todo-form__inner input{
+    width: 40vw;
+    padding:0.5rem 0.2rem;
+    border: 1px solid gray;
+    border-radius: 7px;
+    font-size: large;
+    align-items: center;
+}
+.todo-form__inner button{
+    height: 100%;
+    padding: 0.2rem;
+    background-color: aquamarine;
+    border: none;
+}
+.todo-form__inner button:hover{
+    cursor: pointer;
+}
+.todo-form__inner input:focus{
+    outline: none;
+}
